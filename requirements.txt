@@ -1,22 +1,8 @@
-# ─────────────────────────────────────────────
-# IWMI Data Science Intern Assessment
-# Python dependencies  (tested on Python 3.11)
-# ─────────────────────────────────────────────
-
-# Core scientific stack
 numpy>=1.24,<2.0
 pandas>=2.0
 matplotlib>=3.7
 seaborn>=0.12
-
-# Computer vision  (headless = no GUI deps, required on Streamlit Cloud)
 opencv-python-headless>=4.8
-
-# Deep learning  (CPU-only, Python 3.11 compatible)
 tensorflow-cpu>=2.13,<2.17
-
-# Machine learning utilities
 scikit-learn>=1.3
-
-# Streamlit web app
 streamlit>=1.32
