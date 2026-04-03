@@ -12,9 +12,8 @@ seaborn>=0.12
 # Computer vision
 opencv-python>=4.8
 
-# Deep learning
-tensorflow>=2.13,<=2.16.2       # includes Keras 2 (legacy) API
-# OR:  tensorflow-cpu>=2.13     # for CPU-only environments
+# Deep learning (CPU-only for Streamlit Cloud)
+tensorflow-cpu==2.16.1
 
 # Machine learning utilities
 scikit-learn>=1.3
