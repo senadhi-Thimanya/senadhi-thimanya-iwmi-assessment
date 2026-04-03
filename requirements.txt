@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────
+# IWMI Data Science Intern Assessment
+# Python dependencies
+# ─────────────────────────────────────────────
+
+# Core scientific stack
+numpy>=1.24,<2.0
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+
+# Computer vision
+opencv-python>=4.8
+
+# Deep learning
+tensorflow>=2.13,<2.17          # includes Keras 2 (legacy) API
+# OR:  tensorflow-cpu>=2.13     # for CPU-only environments
+
+# Machine learning utilities
+scikit-learn>=1.3
+
+# Streamlit web app
+streamlit>=1.32
+
+# Optional — experiment tracking / notebook support
+# tensorboard>=2.13             # (already bundled with TF)
+# jupyter>=1.0
+
+# Optional — model export / ONNX
+# tf2onnx>=1.16
