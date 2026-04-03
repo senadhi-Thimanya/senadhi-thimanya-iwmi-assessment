@@ -20,6 +20,7 @@ ENV/
 *.ipynb
 
 # ── Dataset (large binary files) ────────────────────────────────────
+dataset/
 dataset/with_mask/
 dataset/without_mask/
 
