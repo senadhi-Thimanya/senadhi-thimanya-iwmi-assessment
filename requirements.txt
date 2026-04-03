@@ -13,7 +13,7 @@ seaborn>=0.12
 opencv-python>=4.8
 
 # Deep learning
-tensorflow>=2.13,<2.17          # includes Keras 2 (legacy) API
+tensorflow>=2.13,<=2.16.2       # includes Keras 2 (legacy) API
 # OR:  tensorflow-cpu>=2.13     # for CPU-only environments
 
 # Machine learning utilities
