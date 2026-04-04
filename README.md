@@ -25,7 +25,7 @@ face mask. The pipeline covers:
 
 | Stage | Details |
 |---|---|
-| **Data** | Kaggle face-mask dataset — two classes: `with_mask`, `without_mask` |
+| **Data** | Face-mask dataset — two classes: `with_mask`, `without_mask` |
 | **Preprocessing** | Resize to 128×128, normalise, augment (flip, rotate, zoom, brightness) |
 | **Model** | Custom 4-block CNN (~2.8 M params) — no pretrained weights |
 | **Inference** | OpenCV Haarcascade face detection → CNN classification per face |
@@ -36,7 +36,7 @@ face mask. The pipeline covers:
 ## Repository Structure
 
 ```
-your-name-iwmi-assessment/
+senadhi-thimanya-iwmi-assessment/
 ├── README.md                   # This file
 ├── requirements.txt            # Python dependencies
 ├── .gitignore
@@ -56,9 +56,11 @@ your-name-iwmi-assessment/
 └── results/
     ├── training_curves.png
     ├── confusion_matrix.png
-    ├── class_distribution.png
     ├── sample_images.png
-    └── metrics.json
+    ├── metrics.json
+    └── class_distribution.png
+
+
 ```
 
 ---
@@ -105,8 +107,8 @@ Input (128 × 128 × 3)
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/your-name-iwmi-assessment.git
-cd your-name-iwmi-assessment
+git clone https://github.com/senadhi-Thimanya/senadhi-thimanya-iwmi-assessment.git
+cd senadhi-thimanya-iwmi-assessment
 ```
 
 ### 2. Create a virtual environment
@@ -128,7 +130,7 @@ pip install -r requirements.txt
 
 ### 4. Download the dataset
 
-Download the dataset from the provided link and organise it as:
+Download the dataset from the provided link: [https://drive.google.com/file/d/1Dw0DGHwdmiblqzk8u1LeMzMCqo87sJhN/view?usp=sharing](https://drive.google.com/file/d/1Dw0DGHwdmiblqzk8u1LeMzMCqo87sJhN/view?usp=sharing)
 
 ```
 dataset/
