@@ -177,7 +177,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 - Horizontal bar chart of class confidence scores.
 - Sidebar showing model architecture summary, test accuracy, and training curves.
 
-**Live demo:** `<your-deployed-streamlit-url>`
+**Live demo:** [https://senadhi-thimanya-iwmi-assessment.streamlit.app/](https://senadhi-thimanya-iwmi-assessment.streamlit.app/)
 
 ---
 
